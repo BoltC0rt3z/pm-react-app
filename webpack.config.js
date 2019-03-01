@@ -21,5 +21,8 @@ const HWP = require("html-webpack-plugin");
         new HWP(
            {template: path.join(__dirname,"/src/index.html")}
         )
-    ]
+    ],
+    devServer: {
+        historyApiFallback: true
+      }
  }
