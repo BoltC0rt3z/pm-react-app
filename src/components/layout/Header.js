@@ -24,14 +24,13 @@ function Header() {
 const headerStyle = {
   background: "#333",
   color: "#fff",
-  // textAlign: "center",
-  padding: "10px"
+  // padding: "10px"
 };
 
 const linkStyle = {
     color: '#fff',
     textDecorations: 'none',
-    padding: "100px"
+    padding: " 0px 100px"
 }
 
 export default Header;
